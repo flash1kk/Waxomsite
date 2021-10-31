@@ -1,0 +1,261 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: rgb(255, 255, 255); 
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+
+/* ---------------------------------------------------------------------------- */
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.wrap {
+	position: relative;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.main-block {
+	position: relative;
+}
+.slider {
+
+    overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.slide {
+	transition: all .6s ease; 
+    height: 100%;
+    max-width: 30%;
+	transition: all .6s ease;
+}
+
+.slide img {
+max-width: 100%;
+height: auto;
+
+}
+
+
+.wrap {
+	position: relative;
+	width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.slider {
+	
+    overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+
+}
+
+
+
+.bar1, .bar2, .bar3, .bar4, .bar5, .bar6 {
+    color: black;
+    transition: all 0.1s ease;
+
+    border-radius: 5px;
+      border: none;
+      outline: none;
+      max-width: 130px;
+min-width: 100px;
+      padding: 12px 25px;
+      background-color: white;
+      cursor: pointer;
+      margin: 0px auto;
+      position: absolute;
+      text-align: center;
+      font-size: calc(10px + (5 + 5 * 0.7) * ((100vw - 320px) / 1190));
+      padding-bottom: calc(7px + (10 + 10 * 0.7) * ((100vw - 320px) / 1190));
+      padding-top: calc(7px + (10 + 10 * 0.7) * ((100vw - 320px) / 1190));
+      padding-left:calc(10px + (15 + 15 * 0.7) * ((100vw - 320px) / 1190));
+      padding-right:calc(10px + (15 + 15 * 0.7) * ((100vw - 320px) / 1190));
+
+}
+.bar1 { left: 20vw; top: 3vh;}
+.bar2 { left: 32vw; top: 3vh;}
+.bar3 { left: 44vw;top: 3vh;}
+.bar4 { left: 56vw; top: 3vh;}
+.bar5 { left: 68vw; top: 3vh; margin-right: 20vw;}
+
+@media(max-width: 769px)  {
+    .slide_box {
+        padding-bottom: 50px;
+        margin-bottom: 5px;
+    }
+    }
+    
+    
+    @media(max-width: 769px) {
+    .s1 {
+        margin-top: 30px
+    }
+    }
+    
+    @media(max-width: 769px) {
+    .bar {
+        min-width: 50px;
+    }
+
+    }
+    
+@media(max-width: 426px) {
+    .bar1 { left: 6vw; top: 3vh; padding: 5px;}
+    .bar2 { left: 18vw; top: 3vh; padding: 5px;}
+    .bar3 { left: 38vw;top: 3vh;padding: 5px;}
+    .bar4 { left: 58vw; top: 3vh;padding: 5px;}
+    .bar5 { left: 78vw; top: 3vh; padding: 5px;}
+
+    .bar {
+        min-width: 25px;
+    }
+}
+
+.bar1:hover, .bar2:hover, .bar3:hover, .bar4:hover, .bar5:hover{
+    background-color: #998675;
+  
+}
+label:active {
+ 
+    background-color: #372f2d;
+}
+
+input[name="r"]{
+    position: absolute;
+    display: none;
+}
+
+
+.slide {
+
+}
+
+.slide_box {
+    border: 1px solid black;
+  
+    padding-bottom:calc(50px + (25 + 25 * 0.7) * ((100vw - 320px) / 1190));
+    margin-bottom: 18px;
+}
+
+.s1 {
+margin-top: 150px;
+}
+@media(max-width: 1025px) {
+    .s1 {
+        margin-top: 100px;
+    }
+}
+@media(Min-width:427px ) {
+    .s1 {
+        margin-top: 150px;
+    }
+}
+@media(Min-width:1500px ) {
+    .s1 {
+        margin-top: 200px;
+    }
+}
+@media(max-width: 426px) {
+
+.s1 {
+    margin-top: 100px;
+}
+}
+.s1, .s2, .s3, .s4 {
+	transition: all .6s ease;
+}
+#r1:checked ~ .s1 {
+    
+}
+#r2:checked ~ .s1 {
+   opacity: 0;
+}
+#r2:checked ~ .s2, #r2:checked ~ .s3, #r2:checked ~ .s4{ 
+     transform: translate(0%,-100%);}
+ 
+#r3:checked ~ .s2 {
+    opacity: 0;
+ }
+ #r3:checked ~ .s3, #r3:checked ~ .s4 {
+     transform: translate(0%,-100%);
+  }
+
+#r4:checked ~ .s3 {
+    opacity: 0;
+}
+#r4:checked ~ .s4 {
+    transform: translate(0%,-100%);
+}
+
+#r5:checked ~ .s4 {
+    opacity: 0;
+}
+
+.slides_spoiler-box {
+    border: 1px solid black;
+    position: absolute;
+    left:50%;
+transform: translate(-50%,0%);
+
+}
+.slides_spoiler input, #spoiler1:checked ~ .s4{ 
+    opacity: 0; /* Скрываем содержимое */
+   }
+   .slides_spoiler ~ .s4 {
+    opacity: 1; /* Показываем спойлер */
+   
+   }
