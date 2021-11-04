@@ -6,49 +6,59 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css">
 		<title>Waxom</title>
+		
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header">
-				<div class="header__container _container">
+
+			<header class="header" >
+
+				<div class="header__container _container" id="home">
+
 				<div class='header__container-flex'>
-					<div style="min-width: 80px;">
-							<img src="img/logo/logo.svg" class="logo_img">
+					
+					<div class='logo_img'>
+							<img src="img/logo/logoWaxom.png" alt="logowaxom"> 
 					</div>
 
-					<div>
-						<a href="" class="header__logo">Waxom</a>
-					</div>
 				</div>
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="" class="menu__link">Home</a>
+								<a href="#home" class="menu__link">Home</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">About Us</a>
+								<a href="#About" class="menu__link">About Us</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Portfolio</a>
+								<a href="#Portfolio" class="menu__link">Portfolio</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Features</a>
+								<a href="#Features" class="menu__link">Features</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Blog</a>
+								<a href="#Blog" class="menu__link">Blog</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Pricing</a>
+								<a href="#Pricing" class="menu__link">Pricing</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Shortcodes</a>
+								<a href="#Shortcodes" class="menu__link">Shortcodes</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Contact</a>
+								<a href="#Contact" class="menu__link">Contact</a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link" id="store">
+									<img src="img/header-menu/store_white_36dp.svg" alt="header-menu/store_white_36dp">  </a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link">
+									<img src="img/header-menu/search_white_36dp.svg"  alt="header-menu/search_white_36dp">  </a>
 							</li>
 
-							
 						</ul>
-					
+
+
 				</div>
 			</header>
 			<main class="page">
@@ -83,39 +93,46 @@
 
 				</div>
 
-				<section class="page__services services">
-					<div class="services__container _container">
+				<section class="page__services services" >
+					<div class="services__container _container" id="About">
 						<div class="advantages__body1">
 
-							<div class="advantages__column">
+						
+
+							<div class="advantages__column1">
 								<div class="advantages__item1 ">
-									<div class="advantages__icon"><img src="img/services/1.svg" alt="Environmental Consulting"></div>
+									<div class="advantages__icon"> <img src="img/services/1.svg" alt="Environmental Consulting"></div>
 									<h3 class="advantages__value">Web Design</h3>
 									<div class="advantages__text">Just type what's on your mind and we'll get you there. </div>
+									<div class="services__container-bar"></div>
 								</div>
 							</div>
 
-							<div class="advantages__column">
+							<div class="advantages__column1">
 								<div class="advantages__item1 ">
 									<div class="advantages__icon"><img src="img/services/2.svg" alt="Finance and consultancy"></div>
 									<h3 class="advantages__value">Development</h3>
 									<div class="advantages__text">Just type what's on your mind and we'll get you there.</div>
+									<div class="services__container-bar"></div>
 								</div>
+							
 							</div>
 
-							<div class="advantages__column">
+							<div class="advantages__column1">
 								<div class="advantages__item1 ">
 									<div class="advantages__icon "><img src="img/services/3.svg" alt="Finance and consultancy"></div>
 									<h3 class="advantages__value">Customization</h3>
 									<div class="advantages__text">Just type what's on your mind and we'll get you there.</div>
+									<div class="services__container-bar"></div>
 								</div>
 							</div>
 
-							<div class="advantages__column">
+							<div class="advantages__column1">
 								<div class="advantages__item1 ">
 									<div class="advantages__icon"><img src="img/services/4.svg" alt="Finance and consultancy"></div>
 									<h3 class="advantages__value">Marketing</h3>
 									<div class="advantages__text">Just type what's on your mind and we'll get you there.</div>
+									<div class="services__container-bar"></div>
 								</div>
 							</div>
 
@@ -124,20 +141,23 @@
 				</section>
 
 				<section class="page__contact contact">
-					<div class="contact__container _container">
+					<div class="contact__container _container"  id="Pricing">
 						<div class="contact__body">
+
 							<div class="contact__content">
 								<div class="contact__title"><span  style="color: #c7b39a;">Waxom</span>
 									Multipurpose Wordpress Theme
 									<div class="contact__text">Dont Forget the Template.Thanks so much!</div>
-								</h4>
-						
-							</div>
 								
-						</div>
-						<a href="" class="contact__button">Purschase now</a>
+								</div>
+								
+							</div>
+							<div>
+							<a href="" class="contact__button">Purschase now</a>
+							</div>
 					</div>
-				</section>
+				</div>
+		</section>
 					
 
 
@@ -151,13 +171,13 @@
 
 
 
-				<section class="page__gallery gallery"> 
-					<div class="galley__container _container"> 
+				<section class="page__gallery gallery" > 
+					<div class="galley__container _container" id="Portfolio"> 
 						<div class="gallery__body">
 							<div class="header-block">
 
 										<h2 class="gallery__header header-block__title">Our Latest Projects.</h2>
-										<div class="header-block__sub-title">Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
+										<div class="header-block__sub-title ">Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
 											processus dynamicus. qul sequitur mutationem consuetudium.
 										</div>
 							</div>
@@ -180,22 +200,51 @@
 												<input id="gallery-r4" type="radio" name="rr">
 
 									
-												<div class="gallery_row-slide ss1 gallery_row-slide_box"><img src="img/portfolio/web.jpg" alt=""></div>
-												<div class="gallery_row-slide ss1 gallery_row-slide_box"><img src="img/portfolio/web.jpg" alt=""></div>
-												<div class="gallery_row-slide ss1 gallery_row-slide_box"><img src="img/portfolio/web.jpg" alt=""></div>
+												<div class="gallery_row-slide ss1 gallery_row-slide_box1">
+
+												
+													<img src="img/portfolio/web.jpg " alt="" id="grs1">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												
+												<div class="gallery_row-slide ss1 gallery_row-slide_box2">
+													<img src="img/portfolio/web.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss1 gallery_row-slide_box3"><img src="img/portfolio/web.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
 										
-												<div class="gallery_row-slide ss2 gallery_row-slide_box"><img src="img/portfolio/mobile.jpg" alt=""></div>
-												<div class="gallery_row-slide ss2 gallery_row-slide_box"><img src="img/portfolio/mobile.jpg" alt=""></div>
-												<div class="gallery_row-slide ss2 gallery_row-slide_box"><img src="img/portfolio/mobile.jpg" alt=""></div>
+												<div class="gallery_row-slide ss2 gallery_row-slide_box4"><img src="img/portfolio/mobile.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss2 gallery_row-slide_box5"><img src="img/portfolio/mobile.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss2 gallery_row-slide_box6"><img src="img/portfolio/mobile.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
 										
-												<div class="gallery_row-slide ss3 gallery_row-slide_box"><img src="img/portfolio/ill.png" alt=""></div>
-												<div class="gallery_row-slide ss3 gallery_row-slide_box"><img src="img/portfolio/ill.png" alt=""></div>
-												<div class="gallery_row-slide ss3 gallery_row-slide_box "><img src="img/portfolio/ill.png" alt=""></div>
+												<div class="gallery_row-slide ss3 gallery_row-slide_box7"><img src="img/portfolio/ill.png" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss3 gallery_row-slide_box8"><img src="img/portfolio/ill.png" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss3 gallery_row-slide_box9"><img src="img/portfolio/ill.png" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
 
 
-												<div class="gallery_row-slide ss4 gallery_row-slide_box "><img src="img/portfolio/photo.jpg" alt=""></div>
-												<div class="gallery_row-slide ss4 gallery_row-slide_box"><img src="img/portfolio/photo.jpg" alt=""></div>
-												<div class="gallery_row-slide ss4 gallery_row-slide_box"><img src="img/portfolio/photo.jpg" alt=""></div>
+												<div class="gallery_row-slide ss4 gallery_row-slide_box10"><img src="img/portfolio/photo.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss4 gallery_row-slide_box11"><img src="img/portfolio/photo.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
+												<div class="gallery_row-slide ss4 gallery_row-slide_box12"><img src="img/portfolio/photo.jpg" alt="">
+													<h4>Mountains</h4>
+                    								<p>Lorem ipsum dolor..</p></div>
 
 							
 										</div>
@@ -204,6 +253,7 @@
 									</div>
 								</div>
 						</div>
+					</div>
 				</section>
 
 
@@ -216,356 +266,316 @@
 
 
 
-
+			
 
 
 
 										
-			<section class="page__video video"> 
-				<div class="video__container _container"> 
+			<section class="page__video video" > 
+				<div class="video__container _container" id="Features"> 
 					<div class="video__body">
 
-						<div class="video"> 
-							<video preload="metadata" poster="video/preview.jpg" controls class="video_item">
-							<source src="video/1.mp4" type="video/mp4">
-							<source src="video/1.webm" type="video/webm">
-						</video>
+						<div class="video-container"> 
+									<div class='video-info'>
+										<img src="video/play_circle_white_48dp.svg" alt="play_circle_white_48dp">
+										<h2 class=" header-block__title11">Waxom video presentation</h2>
+										<div class="header-block-title1">Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
+											processus dynamicus. qul sequitur mutationem consuetudium.
+										</div>
+										<div class="header-block__sub-title11">0:07</div>
+											
+
+									</div>
+						
+								</div>
 						</div>
 
+					</div>
+				
+			</section>
+
+
+
+			<section class="page__whoweare whoweare" >
+				<div class="whoweare__container _container" id="Shortcodes">
+					<div class="whoweare__header header-block">
+
+						<div class="whoweare__body">
+
+
+							<div class="whoweare__video">
+								<img src="img/whoweare/mobile1.png" alt="whoweare/mobile1">
+							</div>
+						
+
+											<div class="accordion"> 
+												<h2 class="gallery__header header-block__title">Our Latest Projects.</h2>
+												<div class="header-block__sub-title margin40px">Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
+													processus dynamicus. qul sequitur mutationem consuetudium.
+												</div>
+											<div class="accordion-tab">
+												<input type="checkbox" id="accordion-tab1" name="accordion-tab-group">
+												<label for="accordion-tab1" class="accordion-tab-title">Just type what's on your mind</label> 
+												<section class="accordion-tab-content"> 
+												<p>processus dynamicus. qul sequitur mutationem consuetudium:</p>
+												<ul>
+												<li>demonstraverunt lectores legere me llus</li>
+												<li>processus dynamicus. qul sequitur mutationem consuetudium.</li>
+												</ul>
+												</section> 
+											</div> 
+											<div class="accordion-tab">
+												<input type="checkbox" id="accordion-tab2" name="accordion-tab-group">
+												<label for="accordion-tab2" class="accordion-tab-title">Just type what's on your mind</label> 
+												<section class="accordion-tab-content"> 
+													Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
+													processus dynamicus. qul sequitur mutationem consuetudium.
+												</section> 
+											</div> 
+
+											<div class="accordion-tab">
+												<input type="checkbox" id="accordion-tab3" name="accordion-tab-group">
+												<label for="accordion-tab3" class="accordion-tab-title">Just type what's on your mind</label> 
+												<section class="accordion-tab-content"> 
+													Investigationes demonstraverunt lectores legere me llus quod ji Iegunt saeplus. Claritas est etiam <br>
+													processus dynamicus. qul sequitur mutationem consuetudium.
+												</section> 
+											</div> 
+
+											<div class="accordion-tab">
+												<input type="checkbox" id="accordion-tab4" name="accordion-tab-group">
+												<label for="accordion-tab4" class="accordion-tab-title">Just type what's on your mind</label> 
+												<section class="accordion-tab-content"> 
+												<p>processus dynamicus. qul sequitur mutationem consuetudium:</p>
+												<ul>
+												<li>demonstraverunt lectores legere me llus</li>
+												<li>processus dynamicus. qul sequitur mutationem consuetudium.</li>
+												</ul>
+												</section> 
+											</div> 
+
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 
 
-				<section>
-					<div class="advantages__container _container">
-						<div class="advantages__body">
+			<section>
+					<div class="contact__container1 _container">
+						<div class="contact__body">
+
 							<div class="advantages__column">
 								<div class="advantages__item">
 									<div class="advantages__icon">
-										<img src="img/advantages/01.svg" alt="Consumer Products">
+										<img src="img/advantages/group_white_36dp.svg" alt="Consumer Products">
 									</div>
-									<div class="advantages__value">972 +</div>
-									<div class="advantages__text">Consumer Products</div>
+									<div class="advantages__value1">972 +</div>
+									<div class="advantages__text1">Consumer Products</div>
 								</div>
 							</div>
+
 							<div class="advantages__column">
 								<div class="advantages__item">
 									<div class="advantages__icon">
-										<img src="img/advantages/02.svg" alt="Financial Services">
+										<img src="img/advantages/coffee_white_36dp.svg" alt="Financial Services">
 									</div>
-									<div class="advantages__value">181 +</div>
-									<div class="advantages__text">Financial Services</div>
+									<div class="advantages__value1">181 +</div>
+									<div class="advantages__text1">Financial Services</div>
 								</div>
 							</div>
+
 							<div class="advantages__column">
 								<div class="advantages__item">
 									<div class="advantages__icon">
-										<img src="img/advantages/03.svg" alt="Environmental">
+										<img src="img/advantages/chat_white_36dp.svg" alt="Environmental">
 									</div>
-									<div class="advantages__value">98%</div>
-									<div class="advantages__text">Environmental</div>
+									<div class="advantages__value1">98%</div>
+									<div class="advantages__text1">Environmental Finance</div>
 								</div>
 							</div>
+
 							<div class="advantages__column">
 								<div class="advantages__item">
 									<div class="advantages__icon">
-										<img src="img/advantages/04.svg" alt="Business & Finance">
+										<img src="img/advantages/favorite_white_36dp.svg" alt="Business & Finance">
 									</div>
-									<div class="advantages__value">746 +</div>
-									<div class="advantages__text">Business & Finance</div>
+									<div class="advantages__value1">746 +</div>
+									<div class="advantages__text1">Business & Finance</div>
 								</div>
 							</div>
+
+							<div class="advantages__column">
+								<div class="advantages__item">
+									<div class="advantages__icon">
+										<img src="img/advantages/launch_white_36dp.svg" alt="Business & Finance">
+									</div>
+									<div class="advantages__value1">746 +</div>
+									<div class="advantages__text1">Business & Finance</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
-				</section>
+			</section>
 				
 
-				<section class="page__practice practice">
-					<div class="practice__container ">
+
+
+
+	<section class="page__practice practice" >
+		<div class="practice__container" id="Blog">
 						<div class="practice__header header-block">
-							<h2 class="header-block__title">Practice Advice</h2>
+							<h2 class="header-block__title">Recent Posts</h2>
 							<div class="header-block__sub-title">
 								Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Newtonian mechanics
 							</div>
 						</div>
-						<div class="practice__body">
-							<div class="practice__column">
-								<article class="practice__item item-practice">
-									<div class="item-practice__content">
-										<a href="" class="item-practice__link">
-											<h4 class="item-practice__title">A single source of truth</h4>
-										</a>
-										<div class="item-practice__text">
-											Newton thought that light was made up of particles, but then it was discovered
-										</div>
-									</div>
-									<a href="" class="item-practice__image _ibg">
-										<img src="img/practice/01.jpg" alt="A single source of truth">
-									</a>
-								</article>
-							</div>
-							<div class="practice__column">
-								<article class="practice__item item-practice">
-									<div class="item-practice__content">
-										<a href="" class="item-practice__link">
-											<h4 class="item-practice__title">Fastest way to organize</h4>
-										</a>
-										<div class="item-practice__text">
-											“Quantum mechanics” is the description of the behaviour of matter
-										</div>
-									</div>
-									<a href="" class="item-practice__image _ibg">
-										<img src="img/practice/02.jpg" alt="Fastest way to organize">
-									</a>
-								</article>
-							</div>
-							<div class="practice__column">
-								<article class="practice__item item-practice">
-									<div class="item-practice__content">
-										<a href="" class="item-practice__link">
-											<h4 class="item-practice__title">Fastest way to take action</h4>
-										</a>
-										<div class="item-practice__text">
-											They describe a universe consisting of bodies moving
-										</div>
-									</div>
-									<a href="" class="item-practice__image _ibg">
-										<img src="img/practice/03.jpg" alt="Fastest way to take action">
-									</a>
-								</article>
-							</div>
-							<div class="practice__column">
-								<article class="practice__item item-practice">
-									<div class="item-practice__content">
-										<a href="" class="item-practice__link">
-											<h4 class="item-practice__title">Work better together</h4>
-										</a>
-										<div class="item-practice__text">
-											They finally obtained a consistent description of the behaviour
-										</div>
-									</div>
-									<a href="" class="item-practice__image _ibg">
-										<img src="img/practice/04.jpg" alt="Work better together">
-									</a>
-								</article>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="page__whoweare whoweare">
-					<div class="whoweare__container _container">
-						<div class="whoweare__header header-block">
-							<h2 class="header-block__title">Who We Are</h2>
-							<div class="header-block__sub-title">
-								Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics
-							</div>
-						</div>
-						<div class="whoweare__body">
-							<div class="whoweare__video">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/6MUuoNX6IdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-							<div class="whoweare__content">
-								<div class="whoweare__top">
-									<h2 class="whoweare__title">Most trusted in our field</h2>
-									<div class="whoweare__text">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</div>
-								</div>
-								<div class="whoweare__items">
-									<div class="whoweare__item item-whoweare">
-										<div class="item-whoweare__icon">
-											<img src="img/whoweare/icons/01.svg" alt="">
-										</div>
-										<div class="item-whoweare__body">
-											<div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
-											<div class="item-whoweare__text">Things on a very small scale Things on a very small scaleThings on a very small scaleThings on a very small scale</div>
-										</div>
-									</div>
-									<div class="whoweare__item item-whoweare">
-										<div class="item-whoweare__icon">
-											<img src="img/whoweare/icons/02.svg" alt="">
-										</div>
-										<div class="item-whoweare__body">
-											<div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
-											<div class="item-whoweare__text">Things on a very small scale Things on a very small scaleThings on a very small scaleThings on a very small scale</div>
-										</div>
-									</div>
+						<div class="Post_slides-wrap">
+  
+							<div class="Post_slider">
+				
+								<div class="Post_slider_slides">
+								  <input id="Pr1" type="radio" name="Post_slider_slides" checked>
+								  <input id="Pr2" type="radio" name="Post_slider_slides">
+								  <input id="Pr3" type="radio" name="Post_slider_slides">
+				
+				
+								  <div class="Post_slider_slide Ps1"><img src="img/practice/1.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps2"><img src="img/practice/2.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps3" ><img src="img/practice/3.jpg" alt=""></div>
+				
+				
+								  <div class="Post_slider_navigation">
+									<label for="Pr1" class="Post_slider_bar"></label>
+									<label for="Pr2" class="Post_slider_bar"></label>
+									<label for="Pr3" class="Post_slider_bar"></label>
+				
+								  </div>
+				
+								<div class="RecentPosts__header header-block">
+								  <h2 class="header-block__title">Who We Are</h2>
+								  <p class="header-block__sub-title1">
+									Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+								  </p>
+								  <a href="" class="advantages__text1">Read more &#10148;</a>
 								</div>
 							</div>
+				
+							</div>
+				
+				
+						  <div class="Post_slider">
+				
+							  <div class="Post_slider_slides">
+								  <input id="Pr4" type="radio" name="Post_slider_slides" checked>
+								  <input id="Pr5" type="radio" name="Post_slider_slides">
+								  <input id="Pr6" type="radio" name="Post_slider_slides">
+				
+				
+								  <div class="Post_slider_slide Ps4"><img src="img/practice/4.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps5"><img src="img/practice/5.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps6" ><img src="img/practice/6.jpg" alt=""></div>
+				
+				
+								  <div class="Post_slider_navigation">
+									<label for="Pr4" class="Post_slider_bar"></label>
+									<label for="Pr5" class="Post_slider_bar"></label>
+									<label for="Pr6" class="Post_slider_bar"></label>
+				
+								  </div>
+				
+								<div class="RecentPosts__header header-block">
+								  <h2 class="header-block__title">Who We Are</h2>
+								  <p class="header-block__sub-title1">
+									Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+								  </p>
+								  <a href="" class="advantages__text1">Read more &#10148;</a>
+								</div>
+						  </div>
+				
 						</div>
-					</div>
-				</section>
-				<div class="page__clients clients">
-					<div class="clients__container _container">
+				
+						  <div class="Post_slider">
+				
+							  <div class="Post_slider_slides">
+								  <input id="Pr7" type="radio" name="Post_slider_slides" checked>
+								  <input id="Pr8" type="radio" name="Post_slider_slides">
+								  <input id="Pr9" type="radio" name="Post_slider_slides">
+				
+				
+								  <div class="Post_slider_slide Ps7"><img src="img/practice/7.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps8"><img src="img/practice/8.jpg" alt=""></div>
+								  <div class="Post_slider_slide Ps9" ><img src="img/practice/9.jpg" alt=""></div>
+				
+				
+								  <div class="Post_slider_navigation">
+									<label for="Pr7" class="Post_slider_bar"></label>
+									<label for="Pr8" class="Post_slider_bar"></label>
+									<label for="Pr9" class="Post_slider_bar"></label>
+				
+								  </div>
+				
+								<div class="RecentPosts__header header-block">
+								  <h2 class="header-block__title">Who We Are</h2>
+								  <p class="header-block__sub-title1">
+									Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+								  </p>
+								  <a href="" class="advantages__text1">Read more &#10148;</a>
+								</div>
+						  </div>
+				
+						</div>
+				  </div>
+				
+			</div>
+	</section>
+
+
+	<section class='page_Sponsors sponsors'> 
+				<div class="contact__container2 _container">
+
+					<div class="page_Sponsors-contact__body">
+						
 						<div class="clients__items">
 							<div class="clients__item">
-								<img src="img/clients/01.png" alt="clients">
+								<img src="img/footer/sponsors/Artistic-Iron-Works-White-1.png" alt="clients">
 							</div>
 							<div class="clients__item">
-								<img src="img/clients/02.png" alt="clients">
+								<img src="img/footer/sponsors/BCKW-Emblem-Logo-white.png" alt="clients">
 							</div>
 							<div class="clients__item">
-								<img src="img/clients/03.png" alt="clients">
+								<img src="img/footer/sponsors/unnamed.png" alt="clients">
 							</div>
 							<div class="clients__item">
-								<img src="img/clients/04.png" alt="clients">
-							</div>
-							<div class="clients__item">
-								<img src="img/clients/05.png" alt="clients">
-							</div>
-							<div class="clients__item">
-								<img src="img/clients/06.png" alt="clients">
+								<img src="img/footer/sponsors/Untitled-2.webp" alt="clients">
 							</div>
 						</div>
+
 					</div>
 				</div>
-				<section class="page__subscribe subscribe">
-					<div class="subscribe__container _container">
-						<div class="subscribe__body">
-							<h4 class="subscribe__title">Subscribe For Latest Newsletter</h4>
-							<form action="#" class="subscribe__form">
-								<input autocomplete="off" type="email" required name="form[]" placeholder="Your Email" class="subscribe__input">
-								<button type="submit" class="subscribe__button">Subscribe</button>
-							</form>
+
+		</section>	
+
+</main>
+
+			<footer class="footer" >
+			
+					<div class="footer__bottom" id="Contact">
+						<div class="footer__container _container">
+							<div class="footer__copy">Made With Love By
+
+							<span class='advantages__value11f'>| Figmaland |</span> All Right Reserved 
+								
 						</div>
-					</div>
-				</section>
-				<section class="page__getintouch getintouch">
-					<div class="getintouch__container _container">
-						<div class="getintouch__header header-block">
-							<h2 class="header-block__title">Get In Touch</h2>
-							<div class="header-block__sub-title">
-								Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics
-							</div>
-						</div>
-						<div class="getintouch__items">
-							<div class="getintouch__item item-getintouch">
-								<div class="item-getintouch__icon">
-									<img src="img/getintouch/01.svg" alt="getintouch">
-								</div>
-								<div class="item-getintouch__emails">
-									<a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
-									<a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
-								</div>
-								<div class="item-getintouch__label">Get Support</div>
-								<a href="" class="item-getintouch__button">Submit Request</a>
-							</div>
-							<div class="getintouch__item item-getintouch item-getintouch_active">
-								<div class="item-getintouch__icon">
-									<img src="img/getintouch/02.svg" alt="getintouch">
-								</div>
-								<div class="item-getintouch__emails">
-									<a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
-									<a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
-								</div>
-								<div class="item-getintouch__label">Get Support</div>
-								<a href="" class="item-getintouch__button">Submit Request</a>
-							</div>
-							<div class="getintouch__item item-getintouch">
-								<div class="item-getintouch__icon">
-									<img src="img/getintouch/03.svg" alt="getintouch">
-								</div>
-								<div class="item-getintouch__emails">
-									<a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
-									<a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
-								</div>
-								<div class="item-getintouch__label">Get Support</div>
-								<a href="" class="item-getintouch__button">Submit Request</a>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="page__contact contact">
-					<div class="contact__container _container">
-						<div class="contact__body">
-							<div class="contact__content">
-								<h4 class="contact__title">Consulting Agency For Your Business</h4>
-								<div class="contact__text">the quick fox jumps over the lazy dog</div>
-							</div>
-							<a href="" class="contact__button">Contact Us</a>
-						</div>
-					</div>
-				</section>
-			</main>
-			<footer class="footer">
-				<div class="footer__top">
-					<div class="footer__main _container">
-						<div class="footer__row">
-							<div class="footer__column">
-								<div class="footer__label">Company Info</div>
-								<nav class="footer__menu menu-footer">
-									<ul class="menu-footer__list">
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="footer__column">
-								<div class="footer__label">Legal</div>
-								<nav class="footer__menu menu-footer">
-									<ul class="menu-footer__list">
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="footer__column">
-								<div class="footer__label">Features</div>
-								<nav class="footer__menu menu-footer">
-									<ul class="menu-footer__list">
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="footer__column">
-								<div class="footer__label">Resources</div>
-								<nav class="footer__menu menu-footer">
-									<ul class="menu-footer__list">
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Carrier</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">We are hiring</a></li>
-										<li class="menu-footer__item"><a href="" class="menu-footer__link">Blog</a></li>
-									</ul>
-								</nav>
-							</div>
-							<div class="footer__column">
-								<div class="footer__label">Get In Touch</div>
-								<div class="footer__contacts contacts-footer">
-									<a href="tel:4805550103" class="contacts-footer__item contacts-footer__item_phone">(480) 555-0103</a>
-									<a href="" class="contacts-footer__item contacts-footer__item_map">4517 Washington Ave. Manchester, Kentucky 39495</a>
-									<a href="mailto:debra.holt@example.com" class="contacts-footer__item contacts-footer__item_email">debra.holt@example.com</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer__bottom">
-					<div class="footer__container _container">
-						<div class="footer__copy">Made With Love By Figmaland All Right Reserved </div>
-						<div class="footer__social social">
-							<a href="" class="social__item">
-								<img src="img/footer/social/01.svg" alt="social">
-							</a>
-							<a href="" class="social__item">
-								<img src="img/footer/social/02.svg" alt="social">
-							</a>
-							<a href="" class="social__item">
-								<img src="img/footer/social/03.svg" alt="social">
-							</a>
-							<a href="" class="social__item">
-								<img src="img/footer/social/04.svg" alt="social">
-							</a>
+						<div class="menu__item">
+							<a href="" class="advantages__value11f">FAQ |</a>
+							<a href="" class="advantages__value11f"> Support</a>
 						</div>
 					</div>
 				</div>
 			</footer>
 		</div>
-		<script src="js/script.js"></script>
 	</body>
 </html>
